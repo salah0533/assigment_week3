@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    background-color: #624c4c;
+}
+.navbar{
+    background-color: rgb(240, 187, 89) !important;
+}
+.content{
+    margin-top: 100px;
+}
+.box{
+    padding:0 ;
+    background-color: black;
+    color:white;
+}
+.box h3{
+    color:black;
+    width:5em;
+    text-align:center;
+    float:right;
+    margin-top: 0;
+}
+#box1 h3{
+    background-color: yellow;
+}
+#box2 h3{
+    background-color: aqua;
+}
+#box3 h3{
+    background-color: blue;
+}
+.box p{
+    clear:right;
+    padding:20px;
+}
+@media (max-width:991px){
+    .box{
+        margin-bottom: 25px;
+    }
+}
